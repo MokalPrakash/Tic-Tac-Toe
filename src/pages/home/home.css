@@ -1,0 +1,114 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home.container {
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    width: 30vw;
+    margin-top: 1rem;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 25px;
+
+}
+
+.radio-container {
+    margin: 1rem 0;
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: rosybrown;
+}
+
+.radio-control {
+    width: 50%;
+
+}
+.radio-control input{
+    display: none;
+}
+
+.radio-label {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: thistle;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.radio-control input[type="radio"]:checked + .radio-label:hover {
+    border: 0.5px solid greenyellow;
+   
+}
+
+.radio-control input[type="radio"]:checked + .radio-label{
+    background-color: gainsboro;
+    width: 80%;
+    height: 80%;
+    box-shadow: 5px 8px 7px rgba(196, 186, 96, 0.8);
+   
+    
+    
+    
+    
+}
+
+.radio-img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    aspect-ratio:  1 / 1;
+    vertical-align: middle;
+}
+
+.formFieldSet {
+    padding: 1rem;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 1.3rem;
+
+}
+
+.formFieldSet p{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.formFieldSet p:first-child {
+    color: skyblue;
+}
+
+.formFieldSet p:last-child {
+    color: tan;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
